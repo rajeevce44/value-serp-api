@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALUE SERP API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="signup-form margin-auto mt-small vc-two" style="max-width: 837px; background: none; margin-top: 4px !important;">
+        <div>
+            <form data-hs-cf-bound="true" style="margin-bottom: 0px; display: flex;" data-gtm-form-interact-id="0">
+                <div class="input-wrapper">
+                    <input id="search-box" autocomplete="off" placeholder="Search term" type="text" value="" data-gtm-form-interact-field-id="0">
+                    <input type="text" autocomplete="off" placeholder="Location" value="" id="search-category">
+                    
+                </div>
+                <button class="btn btn-red btn-small gtm-signup-button-with-email vc-two" type="button" id="submit-button">
+                    <span id="button-text">Search</span>
+                    <div id="button-loader" class="spinner-border spinner-border-sm d-none" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </button>
+                <a href="#" class="btn btn-primary btn-small ml-2" id="export-csv">Export as CSV</a>
+
+            </form>
+            
+            <div id="search-results">
+                <div id="loading-bar">
+                    <div id="loading-bar-progress"></div>
+                </div>
+            </div>
+            <div class="notch-engine-holder">
+                <!-- Add your notch engines here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Include jQuery UI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Include the custom JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
